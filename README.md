@@ -40,3 +40,47 @@ _untracked,  staged, modified, and tracked._
 Жизненный цикл файла в Git: создание, добавление в staging area, коммит, изменение, повторное добавление в staging area, коммит.  
 
 Команда git status показывает статусы файлов: _staged, modified, untracked_
+
+---
+<тут пустая строка!>
+
+```mermaid
+graph LR;
+
+ 	A[untracked] -- "git add" --> B{staged};
+	B -- "git commit" --> C{tracked};
+	B -- "changes" --> D{modified};
+	C -- "changes" --> D{modified};
+	D -- "git add" --> B{staged};
+
+%% описание схемы
+```
+
+<и тут пустая строка!> 
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
