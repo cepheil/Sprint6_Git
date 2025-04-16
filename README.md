@@ -42,7 +42,7 @@ _untracked,  staged, modified, and tracked._
 Команда git status показывает статусы файлов: _staged, modified, untracked_
 
 ---
-<тут пустая строка!>
+
 
 ```mermaid
 graph LR;
@@ -56,7 +56,6 @@ graph LR;
 %% описание схемы
 ```
 
-<и тут пустая строка!> 
 ---
 
 
